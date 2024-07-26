@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-model_filename = 'random_forest_model.pkl'
+model_filename = 'xgboost_model.pkl'
 model = joblib.load(model_filename)
 
 # Title of the app
